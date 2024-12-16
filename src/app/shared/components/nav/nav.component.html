@@ -1,0 +1,47 @@
+<mat-sidenav-container class="example-container">
+  <mat-sidenav #sidenav class="example-sidenav" mode="side" opened>
+    <mat-nav-list>
+      <mat-list-item routerLink="">
+        <mat-icon matListItemIcon>home</mat-icon> Home</mat-list-item
+      >
+    </mat-nav-list>
+    <mat-nav-list>
+      <mat-list-item routerLink="">
+        <mat-icon matListItemIcon>person</mat-icon> Profile</mat-list-item
+      >
+    </mat-nav-list>
+    <mat-nav-list>
+      <mat-list-item routerLink="">
+        <mat-icon matListItemIcon>info</mat-icon> About</mat-list-item
+      >
+    </mat-nav-list>
+    <mat-nav-list>
+      <mat-list-item routerLink="listar-categories">
+        <mat-icon matListItemIcon>folder</mat-icon> Categorias</mat-list-item
+      >
+    </mat-nav-list>
+  </mat-sidenav>
+  <mat-sidenav-content class="example-sidenav-content">
+    <router-outlet />
+  </mat-sidenav-content>
+</mat-sidenav-container>
+
+<!-- <mat-drawer-container class="example-container">
+  <mat-drawer mode="side" opened>
+    <section>
+      <div class="example-button-row">
+        <button mat-button routerLink="listar-categories">Categorias</button>
+      </div>
+    </section>
+    <mat-divider></mat-divider>
+    <section>
+      <div class="example-button-row">
+        <button mat-button routerLink="listar-categories">Posts</button>
+      </div>
+    </section>
+  </mat-drawer>
+
+  <mat-drawer-content>
+    <router-outlet />
+  </mat-drawer-content>
+</mat-drawer-container> -->
