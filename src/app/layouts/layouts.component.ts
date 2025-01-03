@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from '../../shared/components/header/header.component';
-import { FooterComponent } from '../../shared/components/footer/footer.component';
+import { HeaderComponent } from '../shared/components/header/header.component';
+import { FooterComponent } from '../shared/components/footer/footer.component';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { MaterialModule } from '../../shared/material/material.module';
-import { NavComponent } from '../../shared/components/nav/nav.component';
+import { MaterialModule } from '../shared/material/material.module';
+import { NavComponent } from '../shared/components/nav/nav.component';
 
 @Component({
   selector: 'app-layouts',

@@ -1,14 +1,14 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
-import { PostsRoutingModule } from './posts-routing.module';
+import { TagsRoutingModule } from './tags-routing.module';
 
 
 @NgModule({
   declarations: [],
   imports: [
     CommonModule,
-    PostsRoutingModule
+    TagsRoutingModule
   ]
 })
-export class PostsModule { }
+export class TagsModule { }
