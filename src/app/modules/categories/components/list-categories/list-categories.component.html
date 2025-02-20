@@ -1,10 +1,10 @@
 <div class="demo-button-container">
   <button mat-raised-button routerLink="/agregar-categoria">Nuevo</button>
 </div>
-<mat-form-field>
+<!-- <mat-form-field>
   <mat-label>Buscar</mat-label>
-  <input matInput  placeholder="Escribe aqui la palabra" #txtTagInput (keyup.enter)="searchTag()"> <!-- (keyup)="applyFilter($event)" -->
-</mat-form-field>
+  <input matInput (keyup)="applyFilter($event)" placeholder="Escribe aqui la palabra" #txtTagInput>
+</mat-form-field> -->
 
 <table mat-table [dataSource]="categories" class="mat-elevation-z8">
   <!--- Note that these columns can be defined in any order.

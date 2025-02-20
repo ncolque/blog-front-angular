@@ -38,7 +38,9 @@ export class ListCategoriesComponent {
     });
   }
 
-  searchTag() {
+  applyFilter(event: Event) {
+    const filterValue = (event.target as HTMLInputElement).value;
+    //this.categories.filter = filterValue.trim().toLowerCase();
     const newTag = this.tagInput.nativeElement.value;
     console.log({ newTag });
   }

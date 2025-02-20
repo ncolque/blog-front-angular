@@ -10,20 +10,23 @@ import {MatTableModule} from '@angular/material/table';
 import {MatListModule} from '@angular/material/list';
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatInputModule} from '@angular/material/input';
+import {MatSelectModule} from '@angular/material/select';
+import {MatDialogModule} from '@angular/material/dialog';
 
 const MaterialComponents = [
   MatToolbarModule,
   MatButtonModule,
   MatIconModule,
   MatSidenavModule,
-  MatIconModule,
   MatDividerModule,
   MatTableModule,
   MatListModule,
   MatFormFieldModule,
-  MatInputModule
+  MatInputModule,
+  MatSelectModule,
+  MatDialogModule,
   /* MatCardModule,
-  MatSelectModule */
+   */
 ]
 
 @NgModule({

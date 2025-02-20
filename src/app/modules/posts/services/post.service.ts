@@ -19,4 +19,16 @@ export class PostService {
   deletePostSvc(id: number): Observable<Post> {
     return this.http.delete<Post>(`${this.API_URL}/${id}`);
   }
+
+  createPostSvc(post: Post): Observable<Post> {
+    return this.http.post<Post>(`${this.API_URL}`, post);
+  }
+
+  findPostSvc(id: number): Observable<Post> {
+    return this.http.get<Post>(`${this.API_URL}/${id}`);
+  }
+
+  updatePostSvc(id: number, post: Post): Observable<Post> {
+    return this.http.put<Post>(`${this.API_URL}/${id}`, post);
+  }
 }

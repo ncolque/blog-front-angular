@@ -32,6 +32,10 @@ export const routes: Routes = [
         path: 'agregar-post',
         component: CreateEditPostComponent,
       },
+      {
+        path: 'editar-post/:id',
+        component: CreateEditPostComponent,
+      },
       /* {
         path: 'categorias',
         loadChildren: () => import('./modules/categories/categories.module').then((m) => m.CategoriesModule),
